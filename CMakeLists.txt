@@ -9,10 +9,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 
 project(
-    bounty_of_two
-    VERSION 0.0.1
-    DESCRIPTION ""
-    HOMEPAGE_URL ""
+    xxd
+    VERSION 1.0.0
+    DESCRIPTION "A C++ implementation of xxd for c++17 style hex dumps"
+    HOMEPAGE_URL "https://github.com/majvax/xxd"
     LANGUAGES CXX
 )
 
