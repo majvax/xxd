@@ -7,4 +7,5 @@ target_link_libraries(xxd
     fmt::fmt
     spdlog::spdlog
     cxxopts::cxxopts
+    brotlienc
 )

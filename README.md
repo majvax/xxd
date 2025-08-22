@@ -52,6 +52,7 @@ Usage:
 	-i, --input arg   Input file
 	-o, --output arg  Output file
 	-n, --name arg    Name of the generated array (default: data)
+    -c, --compress    Compress output using Brotli (default: false)
 ```
 
 ### Example
@@ -102,7 +103,9 @@ Fetched automatically via CPM.cmake at configure time; no manual setup required.
 
 
 ## Future Work
-- [ ] Add support for compressed output (e.g., gzip) to reduce binary size
+- [x] Add support for compressed output (e.g., gzip) to reduce binary size
+- [ ] Add the decompression into the generated code
+- [ ] Add support for multiple compressing algorithms (e.g., Brotli, zlib)
 - [ ] Support more output formats (e.g., C-style structs)
 - [ ] Easy integration with CMake for automatic header generation
 
